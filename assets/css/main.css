@@ -1,0 +1,25 @@
+@CHARSET "ISO-8859-1";
+.header-bg{
+	background-image: url("redbg.jpg");
+	background-repeat:repeat-x;
+	height: 100px;
+	font-color: white;
+}
+
+.footer-bg{
+	background-image: url("redbg.jpg");
+	background-repeat:repeat-x;
+	height: 20px;
+}
+
+.body-container{
+	height: 90%;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}

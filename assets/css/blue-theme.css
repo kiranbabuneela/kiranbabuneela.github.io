@@ -1,0 +1,307 @@
+@CHARSET "ISO-8859-1";
+
+/*!
+ * Start Bootstrap - Business Casual Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+body {
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background: #DAEDFE;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase;
+	/*font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;*/
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+p {
+	font-size: 1.25em;
+	line-height: 1.6;
+	color: #000;
+}
+
+hr {
+	max-width: 400px;
+	background-color: #4A96A4;
+	height: 2px;
+	border: 0;
+}
+
+.brand, .address-bar {
+	display: none;
+}
+
+.navbar-brand {
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 2px;
+}
+
+.navbar-nav {
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 3px;
+}
+
+.img-full {
+	min-width: 100%;
+}
+
+.brand-before, .brand-name {
+	text-transform: capitalize;
+}
+
+.brand-before {
+	margin: 15px 0;
+}
+
+.
+.brand-name {
+	margin: 0;
+	font-size: 3em;
+}
+
+.tagline-divider {
+	margin: 15px auto 3px;
+	max-width: 250px;
+	border-color: #999999;
+}
+
+.box {
+	margin-bottom: 20px;
+	padding: 30px 15px;
+	background: #fff;
+	background: rgba(255, 255, 255, 0.9);
+}
+
+.box-first {
+	margin-bottom: 20px;
+	padding: 30px 15px;
+	background: #fff;
+	background: rgba(255, 255, 255, 0.9);
+}
+
+.sticky-bar {
+	width: 100%;
+	padding: 10px 0px 0px 0px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+
+.intro-text {
+	text-transform: uppercase;
+	font-size: 1.25em;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+
+.img-border {
+	float: none;
+	margin: 0 auto 0;
+	border: #999999 solid 1px;
+}
+
+.img-left {
+	float: none;
+	margin: 0 auto 0;
+}
+
+footer {
+	background: #fff;
+	background: rgba(255, 255, 255, 0.9);
+}
+
+footer p {
+	margin: 0;
+	padding: 5px;
+	color: #fff;
+}
+
+@media screen and (min-width:768px) {
+	.brand {
+		display: inherit;
+		margin: 0;
+		text-align: center;
+		font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-size: 4em;
+		font-weight: 500;
+		line-height: normal;
+		color: #F06220;
+		background-color: white;
+	}
+	.brand-tagline {
+		display: inherit;
+		margin: 0;
+		padding: 0px 0 10px;
+		text-align: center;
+		font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-size: 1.5em;
+		font-weight: 400;
+		line-height: normal;
+		color: #F06220;
+		background-color: white
+	}
+	.top-divider {
+		margin-top: 0;
+	}
+	.img-left {
+		float: left;
+		margin-right: 25px;
+		margin-top: 8px;"
+	}
+	.address-bar {
+		display: inherit;
+		margin: 0;
+		padding: 0 0 25px;
+		text-align: center;
+		text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+		text-transform: uppercase;
+		font-size: 1.25em;
+		font-weight: 400;
+		letter-spacing: 3px;
+		color: #fff;
+	}
+	.navbar {
+		border-radius: 0;
+	}
+	.navbar-header {
+		display: none;
+	}
+	.navbar {
+		min-height: 0;
+	}
+	.navbar-default {
+		border: none;
+		background: #fff;
+		background: rgba(255, 255, 255, 0.9);
+	}
+	.nav>li>a {
+		padding-top: 18px;
+		padding-right: 30px;
+	}
+	.navbar-nav>li>a {
+		line-height: normal;
+	}
+	.navbar-nav {
+		display: table;
+		float: none;
+		margin: 0 auto;
+		table-layout: fixed;
+		font-size: 1.25em;
+	}
+	.navbar-default .navbar-nav>li>a {
+		color: white;
+	}
+}
+
+@media screen and (min-width:1200px) {
+	.box:after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+}
+
+.header-bg {
+	background: #4A96A4;
+	font-color: white;
+	margin-bottom: 0px;
+}
+
+/* .footer-bg{
+	background-image: url("redbg.jpg");
+	background-repeat:repeat-x;
+	height: 20px;
+} */
+.body-container {
+	height: 90%;
+}
+
+.fixed-header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+}
+
+.donate-style {
+	color: #fff !important;
+	background: #C9302C;
+	position: absolute !important;
+	height: 60px;
+    padding-top: 20px !important;
+    padding-left: 36px !important;
+    font-size: 16px;
+}
+
+.first-row-container {
+	
+}
+
+.first-box {
+	padding: 0px;
+}
+
+.footer-style {
+	bottom: 0px;
+	text-align: center;
+	width: 100%;
+	background-color: #4A96A4;
+	color: #fff !important;
+	height: 40px;
+}
+
+.section-title {
+	color: #F06220;
+}
+
+.page-donate {
+    display: block;
+    width: 100px;
+    margin: 15px auto;
+    color: #fff !important;
+    background: #C9302C;
+    height: 46px;
+    padding-top: 10px !important;
+    font-size: 18px;
+}
+
+.thumbnail {
+	border-color: #4A96A4;
+}
+
+.bank-details-title {
+	font-size: 20px; 
+	background-color : #DAEDFE;
+	color: black;
+	border-radius: 2.25em;
+	background-color: #DAEDFE;
+}
+
+.bank-details {
+	background-color: #DAEDFE;
+	border-color: #4A96A4;
+	border-radius: 0px;	
+	margin-top: 20px;
+}
+
+.bank-exemption {
+	font-size: 18px; 
+	background-color : #DAEDFE;
+	color: black;
+	border-radius: 10px;
+	padding: 6px;
+}
+.thumbnail{
+	margin-bottom: 14px;
+    margin-top: 20px;
+}
